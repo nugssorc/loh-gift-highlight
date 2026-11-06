@@ -1,0 +1,9 @@
+﻿소스 (MIT No Attribution — 마음대로 고치고 다시 올려도 됩니다)
+
+  선물선호표시모드\src      모드 DLL 소스(C, CRT 없이 빌드)
+  모드공통\native     두 모드가 같이 쓰는 IL2CPP 런타임·입구 DLL·로더
+  모드공통\공개설치.ps1  묶음의 설치기(_files\tool.ps1 과 같음)
+
+빌드: zig 0.14.1(x86_64-windows) + Python 3 — 선물선호표시모드\build.py 가 모드공통\build_native.py 를 부릅니다.
+     zig 위치는 build_native.py 의 ZIG 줄을 자기 PC 에 맞게 고치세요.
+이 폴더는 설치에 쓰이지 않습니다(지워도 됩니다).
